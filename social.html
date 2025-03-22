@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media - Global Trust Bank</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header */
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #004a5c;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Social Media Section */
+    .social-container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+
+    .social-container h2 {
+      color: #005f73;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .social-container .social-links {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .social-container .social-links a {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      color: #005f73;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .social-container .social-links a:hover {
+      color: #004a5c;
+    }
+
+    .social-container .social-links img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    /* Animations */
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images/logo.jpg" alt="Bank Logo">
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <!-- Social Media Section -->
+  <div class="social-container">
+    <h2>Follow Us on Social Media</h2>
+    <div class="social-links">
+      <a href="https://facebook.com/globaltrustbank" target="_blank">
+        <img src="images/facebook.jpg" alt="Facebook">
+        Facebook
+      </a>
+      <a href="https://twitter.com/globaltrustbank" target="_blank">
+        <img src="images/twitter.jpg" alt="Twitter">
+        Twitter
+      </a>
+      <a href="https://linkedin.com/company/globaltrustbank" target="_blank">
+        <img src="images/linkedln.jpg" alt="LinkedIn">
+        LinkedIn
+      </a>
+      <a href="https://instagram.com/globaltrustbank" target="_blank">
+        <img src="images/image.png" alt="Instagram">
+        Instagram
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

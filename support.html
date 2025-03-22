@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Support - Global Trust Bank</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header */
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #004a5c;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Content Section */
+    .content {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+
+    .content h2 {
+      color: #005f73;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .content h3 {
+      color: #005f73;
+      margin-top: 20px;
+    }
+
+    .content p {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+
+    .content ul {
+      list-style-type: disc;
+      margin: 10px 0 20px 20px;
+    }
+
+    .content ul li {
+      margin: 10px 0;
+    }
+
+    .content button {
+      background-color: #005f73;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: block;
+      margin: 20px auto;
+    }
+
+    .content button:hover {
+      background-color: #004a5c;
+    }
+
+    /* Animations */
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images/logo.jpg" alt="Bank Logo">
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <!-- Content Section -->
+  <div class="content">
+    <h2>Customer Support</h2>
+    <p>
+      At Global Trust Bank, we are committed to providing exceptional customer support to ensure your banking experience is smooth and hassle-free. Whether you have a question, need assistance, or want to report an issue, our support team is here to help you 24/7.
+    </p>
+
+    <h3>How Can We Help You?</h3>
+    <ul>
+      <li><strong>Account Assistance:</strong> Help with account-related queries, such as balance inquiries, transaction issues, or account updates.</li>
+      <li><strong>Technical Support:</strong> Assistance with online banking, mobile app, or technical issues.</li>
+      <li><strong>Loan and Investment Support:</strong> Guidance on loan applications, investment options, and financial planning.</li>
+      <li><strong>Fraud and Security:</strong> Report suspicious activity or get help with security-related concerns.</li>
+      <li><strong>General Inquiries:</strong> Answers to any other questions about our products and services.</li>
+    </ul>
+
+    <h3>Contact Us</h3>
+    <p>
+      You can reach our customer support team through the following channels:
+    </p>
+    <ul>
+      <li><strong>Phone:</strong> Call us at <a href="tel:+1234567890">+1 (234) 567-890</a>.</li>
+      <li><strong>Email:</strong> Email us at <a href="mailto:support@globaltrustbank.com">support@globaltrustbank.com</a>.</li>
+      <li><strong>Live Chat:</strong> Chat with a representative directly through our website or mobile app.</li>
+      <li><strong>Branch Visit:</strong> Visit your nearest Global Trust Bank branch for in-person assistance.</li>
+    </ul>
+
+    <button onclick="window.location.href='complaint.html'">Submit a Complaint</button>
+  </div>
+
+</body>
+</html>
